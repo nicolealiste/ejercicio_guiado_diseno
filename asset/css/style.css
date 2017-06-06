@@ -1,0 +1,18 @@
+#centro-civico{
+	padding: 5%;
+}
+
+.titulo{
+	text-align: center;
+	margin: 3%;
+}
+
+.civico h2{
+	text-align: center;
+	margin:2;
+}
+
+.civico p{
+	font-size: 20px;
+	padding: 5%;
+}
