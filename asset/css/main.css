@@ -1,4 +1,9 @@
-body{
+@media (min-width: 535px) and (max-width: 824px){
+	[class*="col-"]{
+		width: 100%;
+	}
+}
+ body{
 	font-family: 'Montserrat', sans-serif;
 	background: #F06E6E;
 	color: #6B0707;
