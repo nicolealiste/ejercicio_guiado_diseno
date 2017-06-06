@@ -1,16 +1,27 @@
-@media (min-width: 535px) and (max-width: 824px){
+@media (min-width: 535px) and (max-width: 824px) {
 	[class*="col-"]{
 		width: 100%;
 	}
+	body{
+		background: black;
+		font-family: 'Lobster', cursive;
+		color: white;
+	}
+	img{
+		border: 6px solid white;
+	}
 }
- body{
-	font-family: 'Montserrat', sans-serif;
-	background: #F06E6E;
-	color: #6B0707;
+@media (min-width: 200px) and (max-width: 534px) {
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background: #07B399;
+		font-family: 'Indie Flower', cursive;
+		color: #DFDFDF;
+	}
+	img{
+		display: none;
+	}
 }
 
-img{
-	width: 100%;
-	border: 6px solid #BD023B;
-	padding: 2%;
-}
